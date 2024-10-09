@@ -42,6 +42,9 @@
 			<p>A sickly red glow emanates from the attuned creature's chest, spreading across all creatures within a 300 ft radius. Each creature within range must make a DC 17 Charisma saving throw or become Charmed for 1 minute. If they are immune to charm, they become frightened instead.</p>
             <p class="indent">Any creature Charmed or Frightened gains Short Term Madness at the beginning of each of their turns. This ability may be used a number of times equal to your proficiency modifier before a long rest.</p> 
 		</description>
+		<sheet>
+			<description>You can use an action to activate, each creature in 300 ft radius must make a DC 17 Charisma saving throw or become Charmed for 1 minute. If they are immune to charm, they become frightened instead. You can use this up to {{level:warlock}} times per Long Rest.</description>
+		</sheet>
 		<setters>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
@@ -50,6 +53,27 @@
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+
+	<element name="Mindbreaker's Swirly Eye" type="Magic Item" source="My Additions" id="ID_MA_ME_HEART_OF_FAKENA">
+		<description>
+			<p>These soft, jelly-like spheres are in constant motion as a red stripe swirls hypnotically across the surface.</p>
+			<p>A creature may attune to a Swirly Eye by pressing it into ther eye socket. The jelly-like sphere will engulf their eye and cover it like a lense.</p>
+			<p>As an action, once per day,the attuned creature may target one creature it can see within 60 feet and cause them to make a Charisma saving throw against your spell save DC. On a failure, the target's maximum hit points are reduced by 3d4 for 24 hours. If the maximum is redused to 0, the target dies.</p>
+			<p>A creature may attune to one swirly eye at a time and may not attune to another for 24 hours after attunement ends.</p>
+		</description>
+		<sheet>
+			<description>As an action choose a target in sight within a radius of 60 ft. The target must take a Charisma saving throw against your spell save DC. On a failure, the target's maximum hit points are reduced by 3d4 for 24 hours. If the maximum is redused to 0, the target dies.</description>
+		</sheet>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
 </elements>

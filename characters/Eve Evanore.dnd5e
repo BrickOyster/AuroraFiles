@@ -93,7 +93,7 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 			<wisdom>12</wisdom>
 			<charisma>16</charisma>
 		</abilities>
-		<elements level-count="6" registered-count="39">
+		<elements level-count="6" registered-count="40">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -343,7 +343,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					</notes>
 				</details>
 			</item>
-			<item identifier="2339eaca-407d-46aa-adef-397a5a2fa815" name="Heart of Fakena" id="ID_MA_ME_HEART_OF_FAKENA">
+			<item identifier="2339eaca-407d-46aa-adef-397a5a2fa815" name="Mindbreaker's Swirly Eye" id="ID_MA_ME_HEART_OF_FAKENA" sidebar="true">
+				<equipped>true</equipped>
+				<attunement>true</attunement>
 				<details card="true">
 					<name>
 					</name>
@@ -464,8 +466,16 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					</notes>
 				</details>
 			</item>
+			<item identifier="50110224-38ca-425c-ac74-46f10e64459f" name="Mindbreaker's Swirly Eye" id="ID_MA_ME_HEART_OF_FAKENA">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="135">
+		<sum element-count="136">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -520,6 +530,7 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_LONGSWORD" />
 			<element type="Magic Item" id="ID_WOTC_EGTW_MAGIC_ITEM_CORPSE_SLAYER" />
 			<element type="Armor" id="ID_MA_ME_FINE_CLOTHES_MA" />
+			<element type="Magic Item" id="ID_MA_ME_HEART_OF_FAKENA" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_WARLOCK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
