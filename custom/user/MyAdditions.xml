@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Fine Clothes MA" type="Armor" source="My Additions" id="ID_MA_ME_FINE_CLOTHES_MA">
+		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+		<requirements>ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS</requirements>
+		<description>
+			<p>Mage Armor spell with fine clothes.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="10">10 lb.</set>
+			<set name="slot">body</set>
+			<set name="armor">Light</set>
+			<set name="armorClass">13 + Dex modifier</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="13" />
+			<stat name="ac:misc" value="desterity:modifier" />
+		</rules>
+	</element>
+
+	<element name="Amulet of Protection" type="Magic Item" source="My Additions" id="ID_MA_ME_AMULET_OF_PROTECTION">
+		<description>
+			<p>While wearing this amulet, you gain a +1 bonus to AC.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+		</rules>
+	</element>
+	
+	<element name="Heart of Fakena" type="Magic Item" source="My Additions" id="ID_MA_ME_HEART_OF_FAKENA">
+		<description>
+			<p>A sickly red glow emanates from the attuned creature's chest, spreading across all creatures within a 300 ft radius. Each creature within range must make a DC 17 Charisma saving throw or become Charmed for 1 minute. If they are immune to charm, they become frightened instead.</p>
+            <p class="indent">Any creature Charmed or Frightened gains Short Term Madness at the beginning of each of their turns. This ability may be used a number of times equal to your proficiency modifier before a long rest.</p> 
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Legendary</set>
+		</setters>
+	</element>
+</elements>
