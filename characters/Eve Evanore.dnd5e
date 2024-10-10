@@ -37,7 +37,16 @@
 					<description><![CDATA[Ammunition]]></description>
 				</attack>
 			</attacks>
-			<backstory><![CDATA[You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.]]></backstory>
+			<backstory><![CDATA[Name: Eve Evanore
+Backstory (mostly finished):
+
+Eve hailed from StoneHollow. Her mother, Elira, one of the most skilled healers of the village. Her father, Orin, a great hunter. StoneHollo's people lived in harmony with nature and the bordering dense forests and towering mountains. From a young age, Eve was captivated by the wilderness that bordered StoneHollow. While other children gathered to hear the village storytellers recount the ancient legends of the mountains and forests, Eve would often slip away into the woods, exploring its hidden paths and secret glades. Her time spent in solitude allowed her to observe the natural world. Due to the village's ways the people foraged and hunted for food and had minimal connection to the outside world, if only for some trading. Despite her parents attempts to pass down their knowledge and village traditions, Eve insisted on experimenting on her own, carving her own path. While her parents were supportive and understood her curiosity the village elders didn't approve.
+
+When she turned 13, with excitement and a final goodbye to her parents, Eve left her home, setting out to traverse the world's many wonders. Her journeys led her over mountains and through dense forests, each step deepening her understanding of the world and its myriad cultures. During her travels, she crossed paths with numerous individuals, one of them was Mpampi, a charming rogue adventurer, who became her steadfast companion and only friend. Together, they navigated dangerous terrains, uncovered forgotten treasures, forging an unbreakable bond.
+
+One fateful evening, as they camped near the ruins of an ancient castle, they encountered Zariel, a powerful evil deity. Intrigued by Eve's resilience and spirit, Zariel extended an offer: the power to command the very fabric of existence with something called a Book of Vile Darkness. Eve, guided by her principles and love for the natural order of the world, declined the deity's temptation. In a fit of rage, Zariel, with a wave of her hand, killed Mpampi and cursed Eve with divine power, an Aasimar Warlock was created.
+
+The once vibrant and joyful adventurer was now consumed by grief and rage. Driven by a newfound purpose, Eve vowed to avenge Mpampi's death. She set out to find this Book of Vile Darkness, a tome rumoured to grant unimaginable power, containing all and every diseased idea, unhinged thought and every example of blackest magic.]]></backstory>
 			<background-trinket>
 			</background-trinket>
 			<background-traits>I don’t pay attention to the risks in a situation. Never tell me the odds.
@@ -59,19 +68,23 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 			</organization>
 			<additional-features><![CDATA[]]></additional-features>
 			<currency>
-				<copper>0</copper>
-				<silver>0</silver>
+				<copper>8</copper>
+				<silver>3</silver>
 				<electrum>0</electrum>
-				<gold>50</gold>
+				<gold>549</gold>
 				<platinum>0</platinum>
 				<equipment><![CDATA[]]></equipment>
-				<treasure><![CDATA[A magic core, Super crusial screw from eagle]]></treasure>
+				<treasure><![CDATA[A magic mechanical core, Super crusial screw from eagle, 20 clean clothes spellscroll]]></treasure>
 			</currency>
 			<notes>
 				<note column="left">
 				</note>
-				<note column="right">
-				</note>
+				<note column="right">Coi - Giwrgos
+Grimm Rai - Stergios
+Smile - Kiriakos
+Kira - Fay
+Seraphina - Elli
+Harley - Natsios</note>
 			</notes>
 			<quest>
 			</quest>
@@ -85,7 +98,7 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 			<skin>White</skin>
 			<hair>Long</hair>
 		</appearance>
-		<abilities available-points="15">
+		<abilities available-points="-11">
 			<strength>13</strength>
 			<dexterity>14</dexterity>
 			<constitution>15</constitution>
@@ -207,11 +220,11 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="2" checksum="6a2ba920" registered="ID_PHB_SPELL_MAGE_HAND" />
 						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="4" checksum="f4ed6b65" registered="ID_XGTE_SPELL_MAGIC_STONE" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="ID_PHB_SPELL_HEX" />
-						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="ID_PHB_SPELL_WRATHFUL_SMITE" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" replaceLevel="6" registered="ID_PHB_SPELL_BRANDING_SMITE" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="2" checksum="05a06989" registered="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="3" checksum="2f8851eb" registered="ID_PHB_SPELL_MISTY_STEP" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="4" checksum="f950f8c5" registered="ID_PHB_SPELL_HOLD_PERSON" />
-						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="5" checksum="d378c0a7" registered="" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="5" checksum="d378c0a7" registered="ID_PHB_SPELL_REMOVE_CURSE" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="6" checksum="ad008801" registered="ID_PHB_SPELL_DISPEL_MAGIC" />
 					</element>
 					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
@@ -306,11 +319,11 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 			</portrait>
 		</companion>
 		<equipment>
-			<storage name="#1" />
-			<storage name="#2" />
+			<storage name="Tools" />
+			<storage name="Consumable" />
 			<item identifier="5259208f-902b-43f2-934a-c7e7fac6c724" name="Amulet of Protection" id="ID_MA_ME_AMULET_OF_PROTECTION" sidebar="true">
 				<equipped>true</equipped>
-				<details card="true">
+				<details card="false">
 					<name>
 					</name>
 					<notes>
@@ -343,16 +356,6 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					</notes>
 				</details>
 			</item>
-			<item identifier="2339eaca-407d-46aa-adef-397a5a2fa815" name="Mindbreaker's Swirly Eye" id="ID_MA_ME_HEART_OF_FAKENA" sidebar="true">
-				<equipped>true</equipped>
-				<attunement>true</attunement>
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
 			<item identifier="fc46e0bf-a793-48a6-969f-ec3ca0242479" name="Backpack" id="ID_WOTC_PHB_ITEM_BACKPACK">
 				<details card="false">
 					<name>
@@ -368,6 +371,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					<notes>
 					</notes>
 				</details>
+				<storage>
+					<location>Tools</location>
+				</storage>
 			</item>
 			<item identifier="df67a228-5988-475d-a459-de26d74bd139" name="Hammer" id="ID_WOTC_PHB_ITEM_HAMMER">
 				<details card="false">
@@ -376,6 +382,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					<notes>
 					</notes>
 				</details>
+				<storage>
+					<location>Tools</location>
+				</storage>
 			</item>
 			<item identifier="bd55b977-5e8b-48ec-9194-0e5bddd8a53f" name="Piton" id="ID_WOTC_PHB_ITEM_PITON" amount="10">
 				<details card="false">
@@ -384,6 +393,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					<notes>
 					</notes>
 				</details>
+				<storage>
+					<location>Tools</location>
+				</storage>
 			</item>
 			<item identifier="a44236fb-f811-4271-bf05-b044cc139e11" name="Torch" id="ID_WOTC_PHB_ITEM_TORCH" amount="10">
 				<details card="false">
@@ -392,6 +404,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					<notes>
 					</notes>
 				</details>
+				<storage>
+					<location>Tools</location>
+				</storage>
 			</item>
 			<item identifier="40f8abe6-c72b-47c9-9ada-69011cc042e2" name="Tinderbox" id="ID_WOTC_PHB_ITEM_TINDERBOX">
 				<details card="false">
@@ -400,6 +415,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					<notes>
 					</notes>
 				</details>
+				<storage>
+					<location>Consumable</location>
+				</storage>
 			</item>
 			<item identifier="61a4224a-d2a7-48a8-a47d-5c783fa3c60a" name="Rations (1 day)" id="ID_WOTC_PHB_ITEM_RATIONS_1DAY" amount="10">
 				<details card="false">
@@ -408,6 +426,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					<notes>
 					</notes>
 				</details>
+				<storage>
+					<location>Consumable</location>
+				</storage>
 			</item>
 			<item identifier="b4eef018-8168-4526-bd5c-930fd8dff613" name="Waterskin" id="ID_WOTC_PHB_ITEM_WATERSKIN">
 				<details card="false">
@@ -416,6 +437,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					<notes>
 					</notes>
 				</details>
+				<storage>
+					<location>Consumable</location>
+				</storage>
 			</item>
 			<item identifier="8d793158-54a9-444b-a3c9-ce0700035aef" name="Rope, Hempen (50 feet)" id="ID_WOTC_PHB_ITEM_ROPE_HEMPEN_50FEET">
 				<details card="false">
@@ -424,6 +448,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					<notes>
 					</notes>
 				</details>
+				<storage>
+					<location>Consumable</location>
+				</storage>
 			</item>
 			<item identifier="ceb5e0f8-30f6-4068-a2ab-fc35718ad11b" name="Dagger" id="ID_WOTC_PHB_WEAPON_DAGGER">
 				<details card="false">
@@ -459,6 +486,17 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 				</details>
 			</item>
 			<item identifier="218fb87a-29cb-444d-9920-8c087bebf4f3" name="Holy Water (flask)" id="ID_WOTC_PHB_ITEM_HOLYWATER_FLASK" amount="2">
+				<details card="false">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+				<storage>
+					<location>Consumable</location>
+				</storage>
+			</item>
+			<item identifier="50110224-38ca-425c-ac74-46f10e64459f" name="Heart of Fakena" id="ID_MA_ME_HEART_OF_FAKENA">
 				<details card="true">
 					<name>
 					</name>
@@ -466,7 +504,71 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 					</notes>
 				</details>
 			</item>
-			<item identifier="50110224-38ca-425c-ac74-46f10e64459f" name="Mindbreaker's Swirly Eye" id="ID_MA_ME_HEART_OF_FAKENA">
+			<item identifier="e11033ac-2aea-4cc7-8846-400096eddfac" name="Leather" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="6089fa7e-bf97-4731-8227-6ff2a4903844" name="Clothes, Common" id="ID_WOTC_PHB_ITEM_CLOTHES_COMMON">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="7b075758-8408-4813-b802-3de4bf7504b1" name="Potion of Growth" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_GROWTH">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+				<storage>
+					<location>Consumable</location>
+				</storage>
+			</item>
+			<item identifier="18088f0b-b51a-47ec-ad27-06b358e21262" name="Tobacco" id="ID_MA_ME_TOBACCO" amount="100">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+				<storage>
+					<location>Consumable</location>
+				</storage>
+			</item>
+			<item identifier="b665ef2a-1c4e-4202-be59-363e52a26a9d" name="Dragon Scale" id="ID_MA_ME_DRAGON_SCALE" amount="27">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+				<storage>
+					<location>Consumable</location>
+				</storage>
+			</item>
+			<item identifier="28c72c20-12d5-4617-8006-75dc944e0ddf" name="Smoking Pipe" id="ID_MA_ME_SMOKING_PIPE">
+				<details card="true">
+					<name>
+					</name>
+					<notes>Churchwardens</notes>
+				</details>
+			</item>
+			<item identifier="c1cafd16-4dd7-4e4e-bc0f-65b59bbd7917" name="Heart of Fakena" id="ID_MA_ME_HEART_OF_FAKENA">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="dcd4e970-4507-4d32-ba82-876a2e9ff2c0" name="Mindbreaker's Swirly Eye" id="ID_MA_ME_MINDBREAKERS_SWIRLY_EYE">
 				<details card="true">
 					<name>
 					</name>
@@ -504,7 +606,6 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 			<element type="Spell" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
 			<element type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
 			<element type="Spell" id="ID_PHB_SPELL_HEX" />
-			<element type="Spell" id="ID_PHB_SPELL_WRATHFUL_SMITE" />
 			<element type="Background" id="ID_BACKGROUND_CRIMINAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
@@ -522,7 +623,9 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_CHARISMA" />
 			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Spell" id="ID_PHB_SPELL_REMOVE_CURSE" />
 			<element type="Level" id="ID_LEVEL_6" />
+			<element type="Spell" id="ID_PHB_SPELL_BRANDING_SMITE" />
 			<element type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" />
 			<element type="Magic Item" id="ID_MA_ME_AMULET_OF_PROTECTION" />
 			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
@@ -530,7 +633,6 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_LONGSWORD" />
 			<element type="Magic Item" id="ID_WOTC_EGTW_MAGIC_ITEM_CORPSE_SLAYER" />
 			<element type="Armor" id="ID_MA_ME_FINE_CLOTHES_MA" />
-			<element type="Magic Item" id="ID_MA_ME_HEART_OF_FAKENA" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_WARLOCK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -624,10 +726,11 @@ I don’t pay attention to the risks in a situation. Never tell me the odds.</ba
 				<spells>
 					<spell name="Armor of Agathys" level="1" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" known="true" />
 					<spell name="Hex" level="1" id="ID_PHB_SPELL_HEX" known="true" />
-					<spell name="Wrathful Smite" level="1" id="ID_PHB_SPELL_WRATHFUL_SMITE" known="true" />
+					<spell name="Branding Smite" level="2" id="ID_PHB_SPELL_BRANDING_SMITE" known="true" />
 					<spell name="Hold Person" level="2" id="ID_PHB_SPELL_HOLD_PERSON" known="true" />
 					<spell name="Misty Step" level="2" id="ID_PHB_SPELL_MISTY_STEP" known="true" />
 					<spell name="Dispel Magic" level="3" id="ID_PHB_SPELL_DISPEL_MAGIC" known="true" />
+					<spell name="Remove Curse" level="3" id="ID_PHB_SPELL_REMOVE_CURSE" known="true" />
 				</spells>
 			</spellcasting>
 			<additional>
