@@ -91,7 +91,7 @@
 			<wisdom>15</wisdom>
 			<charisma>8</charisma>
 		</abilities>
-		<elements level-count="12" registered-count="34">
+		<elements level-count="12" registered-count="38">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -157,7 +157,7 @@
 						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="2" checksum="531fc9b1" registered="ID_XGTE_SPELL_WORD_OF_RADIANCE" />
 						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="3" checksum="d23aac96" registered="ID_GFP_COFSA_SPELL_SCORCH" />
 						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="4" checksum="5537ba6c" registered="ID_PHB_SPELL_SACRED_FLAME" />
-						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="10" checksum="992fdebe" registered="" />
+						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="10" checksum="992fdebe" registered="ID_DMSG_GRGR_SPELL_UNHOLY_FLAME" />
 						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
 						<element type="Proficiency" name="Spellcasting Focus Group (Holy Symbol)" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
 					</element>
@@ -181,6 +181,7 @@
 							<element type="Archetype Feature" name="Potent Spell Casting" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_POTENT_SPELL_CASTING" />
 						</element>
 					</element>
+					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 					<element type="Class Feature" name="Channel Divinity" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
 						<element type="Class Feature" name="Channel Divinity: Turn Undead" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
 					</element>
@@ -188,7 +189,7 @@
 						<element type="Class Feature" name="Improvement Option (Cleric 4)" requiredLevel="4" checksum="96f2ea81" registered="ID_INTERNAL_CLASS_FEATURE_FEAT_4_CLERIC">
 							<element type="Feat" name="Feat (CLERIC 4)" requiredLevel="4" checksum="b1d6db60" registered="ID_WOTC_UA20200713_FEAT_FEY_TOUCHED">
 								<element type="Ability Score Improvement" name="Ability Score Increase, Fey Touched" requiredLevel="1" checksum="e9623f70" registered="ID_PHB_FEAT_ASI_WISDOM" />
-								<element type="Spell" name="1st-level Spell, Fey Touched" requiredLevel="1" checksum="649b0b5f" registered="" />
+								<element type="Spell" name="1st-level Spell, Fey Touched" requiredLevel="1" checksum="649b0b5f" registered="ID_PHB_SPELL_COMPREHEND_LANGUAGES" />
 								<element type="Spell" name="Misty Step" id="ID_PHB_SPELL_MISTY_STEP" />
 							</element>
 						</element>
@@ -206,7 +207,6 @@
 					</element>
 					<element type="Class Feature" name="Destroy Undead" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" />
 					<element type="Class Feature" name="Divine Intervention" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
-					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_BACKGROUND_FOLK_HERO">
 					<element type="Background Feature" name="Variant Feature" requiredLevel="1" checksum="306124cc" registered="" />
@@ -289,8 +289,26 @@
 		<equipment>
 			<storage name="#1" />
 			<storage name="#2" />
+			<item identifier="645c5081-7e3c-4544-b7c7-58cb6b09d904" name="Shield" id="ID_WOTC_GEAR_SHIELD">
+				<equipped location="Secondary Hand">true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="d08bf506-f03c-4958-822f-a19f7d6625d9" name="Mace" id="ID_WOTC_PHB_WEAPON_MACE">
+				<equipped location="Primary Hand">true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="113">
+		<sum element-count="117">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -311,37 +329,41 @@
 			<element type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
 			<element type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_MOUNTAIN_BORN" />
 			<element type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
 			<element type="Spell" id="ID_PHB_SPELL_GUIDANCE" />
 			<element type="Spell" id="ID_XGTE_SPELL_WORD_OF_RADIANCE" />
-			<element type="Level" id="ID_LEVEL_2" />
-			<element type="Level" id="ID_LEVEL_3" />
-			<element type="Level" id="ID_LEVEL_4" />
-			<element type="Level" id="ID_LEVEL_5" />
-			<element type="Level" id="ID_LEVEL_6" />
-			<element type="Level" id="ID_LEVEL_7" />
-			<element type="Level" id="ID_LEVEL_8" />
-			<element type="Level" id="ID_LEVEL_9" />
-			<element type="Level" id="ID_LEVEL_10" />
-			<element type="Level" id="ID_LEVEL_11" />
-			<element type="Level" id="ID_LEVEL_12" />
+			<element type="Spell" id="ID_GFP_COFSA_SPELL_SCORCH" />
 			<element type="Background" id="ID_BACKGROUND_FOLK_HERO" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
 			<element type="Background Feature" id="ID_BACKGROUND_FEATURE_RUSTIC_HOSPITALITY" />
-			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_WISDOM" />
-			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_WISDOM" />
+			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
+			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Spell" id="ID_PHB_SPELL_SACRED_FLAME" />
 			<element type="Feat" id="ID_WOTC_UA20200713_FEAT_FEY_TOUCHED" />
 			<element type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
+			<element type="Ability Score Improvement" id="ID_PHB_FEAT_ASI_WISDOM" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Level" id="ID_LEVEL_6" />
+			<element type="Level" id="ID_LEVEL_7" />
+			<element type="Level" id="ID_LEVEL_8" />
+			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_WISDOM" />
+			<element type="Ability Score Improvement" id="ID_INTERNAL_ASI_WISDOM" />
+			<element type="Level" id="ID_LEVEL_9" />
+			<element type="Level" id="ID_LEVEL_10" />
+			<element type="Spell" id="ID_DMSG_GRGR_SPELL_UNHOLY_FLAME" />
+			<element type="Level" id="ID_LEVEL_11" />
+			<element type="Level" id="ID_LEVEL_12" />
 			<element type="Feat" id="ID_PHB_FEAT_RESILIENT" />
 			<element type="Feat Feature" id="ID_PHB_FEAT_RESILIENT_CONSTITUTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
-			<element type="Ability Score Improvement" id="ID_PHB_FEAT_ASI_WISDOM" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
-			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
-			<element type="Spell" id="ID_GFP_COFSA_SPELL_SCORCH" />
-			<element type="Spell" id="ID_PHB_SPELL_SACRED_FLAME" />
+			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_MACE" />
+			<element type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_CLERIC" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -379,12 +401,15 @@
 			<element type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
 			<element type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_CLERIC" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_8_CLERIC" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_12_CLERIC" />
 			<element type="Archetype" id="ID_XLN_ARCHETYPE_ENTROPY_DOMAIN" />
 			<element type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_DOMAIN_SPELLS" />
 			<element type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
@@ -401,9 +426,6 @@
 			<element type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_CD_ARCANE_DISRUPTION" />
 			<element type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_CD_ENTROPIC_RETALIATION" />
 			<element type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_POTENT_SPELL_CASTING" />
-			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_CLERIC" />
-			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_8_CLERIC" />
-			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_12_CLERIC" />
 		</sum>
 		<magic>
 			<spellcasting name="Cleric" ability="Wisdom" attack="8" dc="16" source="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
@@ -412,6 +434,7 @@
 					<spell name="Guidance" level="0" id="ID_PHB_SPELL_GUIDANCE" />
 					<spell name="Sacred Flame" level="0" id="ID_PHB_SPELL_SACRED_FLAME" />
 					<spell name="Scorch" level="0" id="ID_GFP_COFSA_SPELL_SCORCH" />
+					<spell name="Unholy Flame" level="0" id="ID_DMSG_GRGR_SPELL_UNHOLY_FLAME" />
 					<spell name="Word of Radiance" level="0" id="ID_XGTE_SPELL_WORD_OF_RADIANCE" />
 				</cantrips>
 				<spells>
@@ -724,6 +747,7 @@
 			</spellcasting>
 			<additional>
 				<spell name="Misty Step" level="2" id="ID_PHB_SPELL_MISTY_STEP" source="Fey Touched" />
+				<spell name="Comprehend Languages" level="1" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" source="Fey Touched" />
 			</additional>
 		</magic>
 	</build>
