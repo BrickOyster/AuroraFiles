@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>BrickOyster's content.</name>
+		<update version="0.1.0">
+			<file name="user-BrickOyster.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/main/user-BrickOyster.index" />
+		</update>
+	</info>
+	<files>
+		<file name="MyAdditions.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/main/user-BrickOyster/MyAdditions.xml" />
+	</files>
+</index>
