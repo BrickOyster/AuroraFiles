@@ -32,7 +32,7 @@
 			<attacks>
 				<description><![CDATA[]]></description>
 			</attacks>
-			<backstory><![CDATA[You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.]]></backstory>
+			<backstory><![CDATA[.]]></backstory>
 			<background-trinket>
 			</background-trinket>
 			<background-traits>If someone is in trouble, I’m always ready to lend help.I’m confident in my own abilities and do what I can to instill confidence in others.</background-traits>
@@ -96,7 +96,7 @@
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
 			</element>
-			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="8,3,5,5,8,4,4,3,4,1,6,6,4,1,6,3,7,1,6,3">
+			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="8,4,6,5,8,7,4,3,4,2,7,6,4,1,6,3,7,1,6,3">
 				<element type="Race" name="Race" requiredLevel="1" checksum="1597ef76" registered="ID_WOTC_VGTM_RACE_GOLIATH">
 					<element type="Size" name="Medium" id="ID_SIZE_MEDIUM" />
 					<element type="Language" name="Common" id="ID_LANGUAGE_COMMON" />
@@ -155,7 +155,7 @@
 					<element type="Class Feature" name="Spellcasting" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
 						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="1" checksum="0b016099" registered="ID_PHB_SPELL_GUIDANCE" />
 						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="2" checksum="531fc9b1" registered="ID_XGTE_SPELL_WORD_OF_RADIANCE" />
-						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="3" checksum="d23aac96" registered="ID_GFP_COFSA_SPELL_SCORCH" />
+						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="3" checksum="d23aac96" registered="ID_XGTE_SPELL_TOLL_THE_DEAD" />
 						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="4" checksum="5537ba6c" registered="ID_PHB_SPELL_SACRED_FLAME" />
 						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="10" checksum="992fdebe" registered="ID_DMSG_GRGR_SPELL_UNHOLY_FLAME" />
 						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
@@ -333,7 +333,6 @@
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
 			<element type="Spell" id="ID_PHB_SPELL_GUIDANCE" />
 			<element type="Spell" id="ID_XGTE_SPELL_WORD_OF_RADIANCE" />
-			<element type="Spell" id="ID_GFP_COFSA_SPELL_SCORCH" />
 			<element type="Background" id="ID_BACKGROUND_FOLK_HERO" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
@@ -347,6 +346,7 @@
 			<element type="Feat" id="ID_WOTC_UA20200713_FEAT_FEY_TOUCHED" />
 			<element type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
 			<element type="Ability Score Improvement" id="ID_PHB_FEAT_ASI_WISDOM" />
+			<element type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" />
 			<element type="Level" id="ID_LEVEL_5" />
 			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Level" id="ID_LEVEL_7" />
@@ -358,12 +358,12 @@
 			<element type="Spell" id="ID_DMSG_GRGR_SPELL_UNHOLY_FLAME" />
 			<element type="Level" id="ID_LEVEL_11" />
 			<element type="Level" id="ID_LEVEL_12" />
+			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_MACE" />
 			<element type="Feat" id="ID_PHB_FEAT_RESILIENT" />
 			<element type="Feat Feature" id="ID_PHB_FEAT_RESILIENT_CONSTITUTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
-			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_MACE" />
-			<element type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" />
+			<element type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_CLERIC" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -407,9 +407,6 @@
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
-			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_CLERIC" />
-			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_8_CLERIC" />
-			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_12_CLERIC" />
 			<element type="Archetype" id="ID_XLN_ARCHETYPE_ENTROPY_DOMAIN" />
 			<element type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_DOMAIN_SPELLS" />
 			<element type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
@@ -426,6 +423,9 @@
 			<element type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_CD_ARCANE_DISRUPTION" />
 			<element type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_CD_ENTROPIC_RETALIATION" />
 			<element type="Archetype Feature" id="ID_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_POTENT_SPELL_CASTING" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_CLERIC" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_8_CLERIC" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_12_CLERIC" />
 		</sum>
 		<magic>
 			<spellcasting name="Cleric" ability="Wisdom" attack="8" dc="16" source="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
@@ -433,23 +433,31 @@
 				<cantrips>
 					<spell name="Guidance" level="0" id="ID_PHB_SPELL_GUIDANCE" />
 					<spell name="Sacred Flame" level="0" id="ID_PHB_SPELL_SACRED_FLAME" />
-					<spell name="Scorch" level="0" id="ID_GFP_COFSA_SPELL_SCORCH" />
+					<spell name="Toll the Dead" level="0" id="ID_XGTE_SPELL_TOLL_THE_DEAD" />
 					<spell name="Unholy Flame" level="0" id="ID_DMSG_GRGR_SPELL_UNHOLY_FLAME" />
 					<spell name="Word of Radiance" level="0" id="ID_XGTE_SPELL_WORD_OF_RADIANCE" />
 				</cantrips>
 				<spells>
+					<spell name="Bless" level="1" id="ID_PHB_SPELL_BLESS" prepared="true" />
 					<spell name="Ceremony" level="1" id="ID_XGTE_SPELL_CEREMONY" prepared="true" />
 					<spell name="Detect Magic" level="1" id="ID_PHB_SPELL_DETECT_MAGIC" prepared="true" always-prepared="true" known="true" />
+					<spell name="Healing Word" level="1" id="ID_PHB_SPELL_HEALING_WORD" prepared="true" />
 					<spell name="Inflict Wounds" level="1" id="ID_PHB_SPELL_INFLICT_WOUNDS" prepared="true" always-prepared="true" known="true" />
 					<spell name="Gentle Repose" level="2" id="ID_PHB_SPELL_GENTLE_REPOSE" prepared="true" always-prepared="true" known="true" />
+					<spell name="Hold Person" level="2" id="ID_PHB_SPELL_HOLD_PERSON" prepared="true" />
 					<spell name="Spiritual Weapon" level="2" id="ID_PHB_SPELL_SPIRITUAL_WEAPON" prepared="true" always-prepared="true" known="true" />
+					<spell name="Clairvoyance" level="3" id="ID_PHB_SPELL_CLAIRVOYANCE" prepared="true" />
 					<spell name="Dispel Magic" level="3" id="ID_PHB_SPELL_DISPEL_MAGIC" prepared="true" always-prepared="true" known="true" />
 					<spell name="Protection from Energy" level="3" id="ID_PHB_SPELL_PROTECTION_FROM_ENERGY" prepared="true" always-prepared="true" known="true" />
+					<spell name="Revivify" level="3" id="ID_PHB_SPELL_REVIVIFY" prepared="true" />
 					<spell name="Spirit Guardians" level="3" id="ID_PHB_SPELL_SPIRIT_GUARDIANS" prepared="true" />
+					<spell name="Banishment" level="4" id="ID_PHB_SPELL_BANISHMENT" prepared="true" />
 					<spell name="Blight" level="4" id="ID_PHB_SPELL_BLIGHT" prepared="true" always-prepared="true" known="true" />
 					<spell name="Death Ward" level="4" id="ID_PHB_SPELL_DEATH_WARD" prepared="true" always-prepared="true" known="true" />
+					<spell name="Divination" level="4" id="ID_PHB_SPELL_DIVINATION" prepared="true" />
 					<spell name="Circle of Power" level="5" id="ID_PHB_SPELL_CIRCLE_OF_POWER" prepared="true" always-prepared="true" known="true" />
 					<spell name="Hallow" level="5" id="ID_PHB_SPELL_HALLOW" prepared="true" always-prepared="true" known="true" />
+					<spell name="Planar Ally" level="6" id="ID_PHB_SPELL_PLANAR_ALLY" prepared="true" />
 					<spell name="Adjust Positioning" level="1" id="ID_KBP_DMBM_SPELL_ADJUST_POSITIONING" />
 					<spell name="Alter Arrow’s Fortune" level="1" id="ID_KBP_DMCD_SPELL_ALTER_ARROWS_FORTUNE" />
 					<spell name="Angelic Guardian" level="1" id="ID_KBP_DMAS_SPELL_ANGELIC_GUARDIAN" />
@@ -459,7 +467,6 @@
 					<spell name="Beguiling Gift" level="1" id="ID_KBP_DMHM_SPELL_BEGUILING_GIFT" />
 					<spell name="Blackblood" level="1" id="ID_JONOMAN3000_DAPC_SPELL_BLACKBLOOD" />
 					<spell name="Blackflame" level="1" id="ID_JONOMAN3000_DAPC_SPELL_BLACKFLAME" />
-					<spell name="Bless" level="1" id="ID_PHB_SPELL_BLESS" />
 					<spell name="Cauterizing Flame" level="1" id="ID_DMSG_GRGR_SPELL_CAUTERIZING_FLAME" />
 					<spell name="Ceremony" level="1" id="ID_JONOMAN3000_BDPC_SPELL_CEREMONY" />
 					<spell name="Command" level="1" id="ID_PHB_SPELL_COMMAND" />
@@ -481,7 +488,6 @@
 					<spell name="Guiding Bolt" level="1" id="ID_PHB_SPELL_GUIDING_BOLT" />
 					<spell name="Guiding Hand" level="1" id="ID_WOTC_UA20170403_SPELL_GUIDING_HAND" />
 					<spell name="Hand of Helios" level="1" id="ID_JONOMAN3000_BDPC_SPELL_HAND_OF_HELIOS" />
-					<spell name="Healing Word" level="1" id="ID_PHB_SPELL_HEALING_WORD" />
 					<spell name="Helm’s Everwatchful Eye" level="1" id="ID_DMSG_GRGR_SPELL_HELMS_EVERWATCHFUL_EYE" />
 					<spell name="Hobble Mount" level="1" id="ID_KBP_DMBM_SPELL_HOBBLE_MOUNT" />
 					<spell name="Inflict Pain" level="1" id="ID_JONOMAN3000_DAPC_SPELL_INFLICT_PAIN" />
@@ -535,7 +541,6 @@
 					<spell name="Find Traps" level="2" id="ID_PHB_SPELL_FIND_TRAPS" />
 					<spell name="Hand of the Grave" level="2" id="ID_JONOMAN3000_DAPC_SPELL_HAND_OF_THE_GRAVE" />
 					<spell name="Heartstop" level="2" id="ID_KBP_DMC_SPELL_HEARTSTOP" />
-					<spell name="Hold Person" level="2" id="ID_PHB_SPELL_HOLD_PERSON" />
 					<spell name="Holy Missile" level="2" id="ID_DMSG_GRGR_SPELL_HOLY_MISSILE" />
 					<spell name="Ice Hammer" level="2" id="ID_KBP_DMWM_SPELL_ICE_HAMMER" />
 					<spell name="Incandescent Chain" level="2" id="ID_JONOMAN3000_BDPC_SPELL_INCANDESCENT_CHAIN" />
@@ -582,7 +587,6 @@
 					<spell name="Blade of Wrath" level="3" id="ID_KBP_DMAS_SPELL_BLADE_OF_WRATH" />
 					<spell name="Bladebane" level="3" id="ID_DMSG_TGD_SPELL_BLADEBANE" />
 					<spell name="Catch the Breath" level="3" id="ID_KBP_DMDM_SPELL_CATCH_THE_BREATH" />
-					<spell name="Clairvoyance" level="3" id="ID_PHB_SPELL_CLAIRVOYANCE" />
 					<spell name="Create Food and Water" level="3" id="ID_PHB_SPELL_CREATE_FOOD_AND_WATER" />
 					<spell name="Curse of Incompetence" level="3" id="ID_KBP_DMBM_SPELL_CURSE_OF_INCOMPETENCE" />
 					<spell name="Daylight" level="3" id="ID_PHB_SPELL_DAYLIGHT" />
@@ -613,7 +617,6 @@
 					<spell name="Overclock" level="3" id="ID_KBP_DMC_SPELL_OVERCLOCK" />
 					<spell name="Protective Ice" level="3" id="ID_KBP_DMWM_SPELL_PROTECTIVE_ICE" />
 					<spell name="Remove Curse" level="3" id="ID_PHB_SPELL_REMOVE_CURSE" />
-					<spell name="Revivify" level="3" id="ID_PHB_SPELL_REVIVIFY" />
 					<spell name="Sacred Ward" level="3" id="ID_DMSG_GRGR_SPELL_SACRED_WARD" />
 					<spell name="Scry Ambush" level="3" id="ID_KBP_DMCD_SPELL_SCRY_AMBUSH" />
 					<spell name="Sending" level="3" id="ID_PHB_SPELL_SENDING" />
@@ -629,7 +632,6 @@
 					<spell name="Water Walk" level="3" id="ID_PHB_SPELL_WATER_WALK" />
 					<spell name="Withering Palm" level="3" id="ID_DMSG_MUSG_SPELL_WITHERING_PALM" />
 					<spell name="Aegis" level="4" id="ID_JONOMAN3000_BDPC_SPELL_AEGIS" />
-					<spell name="Banishment" level="4" id="ID_PHB_SPELL_BANISHMENT" />
 					<spell name="Binding Oath" level="4" id="ID_KBP_DMRM_SPELL_BINDING_OATH" />
 					<spell name="Blade of My Brother" level="4" id="ID_KBP_DMRM_SPELL_BLADE_OF_MY_BROTHER" />
 					<spell name="Boundary" level="4" id="ID_DMSG_GRGR_SPELL_BOUNDARY" />
@@ -640,7 +642,6 @@
 					<spell name="Dark Empowerment" level="4" id="ID_GFP_COFSA_SPELL_DARK_EMPOWERMENT" />
 					<spell name="Desiccating Breath" level="4" id="ID_KBP_DMHM_SPELL_DESICCATING_BREATH" />
 					<spell name="Deva’s Wings" level="4" id="ID_KBP_DMAS_SPELL_DEVAS_WINGS" />
-					<spell name="Divination" level="4" id="ID_PHB_SPELL_DIVINATION" />
 					<spell name="Draining Thread" level="4" id="ID_JONOMAN3000_DAPC_SPELL_DRAINING_THREAD" />
 					<spell name="Dusk Arrow" level="4" id="ID_DMSG_GRGR_SPELL_DUSK_ARROW" />
 					<spell name="Energy Foreknowledge" level="4" id="ID_KBP_DMCD_SPELL_ENERGY_FOREKNOWLEDGE" />
@@ -733,7 +734,6 @@
 					<spell name="Moonsilver" level="6" id="ID_JONOMAN3000_BDPC_SPELL_MOONSILVER" />
 					<spell name="Myrkul’s Power" level="6" id="ID_DMSG_GRGR_SPELL_MYRKULS_POWER" />
 					<spell name="Otherworldly Form" level="6" id="ID_WOTC_UA20200326_SPELL_OTHERWORLDLY_FORM" />
-					<spell name="Planar Ally" level="6" id="ID_PHB_SPELL_PLANAR_ALLY" />
 					<spell name="Psyche Onslaught" level="6" id="ID_DMSG_GRGR_SPELL_PSYCHE_ONSLAUGHT" />
 					<spell name="Quasar" level="6" id="ID_AEYANA_ATLAS_SPELL_QUASAR" />
 					<spell name="Rampart of Dispel Magic" level="6" id="ID_DMSG_GRGR_SPELL_RAMPART_OF_DISPEL_MAGIC" />
