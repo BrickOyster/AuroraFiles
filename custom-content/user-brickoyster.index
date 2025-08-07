@@ -3,7 +3,7 @@
 	<info>
 		<name>BrickOyster's content.</name>
 		<update version="0.1">
-			<file name="user-BrickOyster.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster.index" />
+			<file name="user-brickoyster.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster.index" />
 		</update>
 	</info>
 	<files>
