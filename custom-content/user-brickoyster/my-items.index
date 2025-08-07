@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>r/DnD</name>
+		<update version="0.1">
+			<file name="MyItems.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items/source.xml" />
+
+		<file name="MyItems.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items/my-items.xml" />
+	</files>
+</index>

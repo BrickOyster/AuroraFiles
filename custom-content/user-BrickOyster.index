@@ -3,10 +3,10 @@
 	<info>
 		<name>BrickOyster's content.</name>
 		<update version="0.1">
-			<file name="user-BrickOyster.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-BrickOyster.index" />
+			<file name="user-BrickOyster.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster.index" />
 		</update>
 	</info>
 	<files>
-		<file name="MyItems.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-BrickOyster/MyItems.index" />
+		<file name="MyItems.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items.index" />
 	</files>
 </index>

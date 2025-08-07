@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.1">
-			<file name="source.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-BrickOyster/MyItems/source.xml" />
+			<file name="source.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items/source.xml" />
 		</update>
 	</info>
 	<element name="Brick: DnD" type="Source" source="Core" id="ID_BO_SOURCE_MYITEMS">
