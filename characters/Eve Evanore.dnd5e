@@ -560,11 +560,11 @@ Harley - Natsios</note>
 			<element type="Spell" id="ID_PHB_SPELL_BRANDING_SMITE" />
 			<element type="Spell" id="ID_PHB_SPELL_DISPEL_MAGIC" />
 			<element type="Level" id="ID_LEVEL_7" />
+			<element type="Spell" id="ID_XGTE_SPELL_SICKENING_RADIANCE" />
 			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
 			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_ARROWCATCHING_SHIELD" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_LONGSWORD" />
 			<element type="Magic Item" id="ID_WOTC_EGTW_MAGIC_ITEM_CORPSE_SLAYER" />
-			<element type="Spell" id="ID_XGTE_SPELL_SICKENING_RADIANCE" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_WARLOCK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />

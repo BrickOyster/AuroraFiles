@@ -2,11 +2,11 @@
 <index>
 	<info>
 		<name>BrickOyster's content.</name>
-		<update version="0.1.0">
-			<file name="user-BrickOyster.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/main/custom-content/user-BrickOyster.index" />
+		<update version="0.1">
+			<file name="user-BrickOyster.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-BrickOyster.index" />
 		</update>
 	</info>
 	<files>
-		<file name="MyAdditions.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/main/custom-content/user-BrickOyster/MyAdditions.xml" />
+		<file name="MyItems.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-BrickOyster/MyItems.index" />
 	</files>
 </index>

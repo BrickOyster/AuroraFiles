@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="source.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-BrickOyster/MyItems/source.xml" />
+		</update>
+	</info>
+	<element name="Brick: DnD" type="Source" source="Core" id="ID_BO_SOURCE_MYITEMS">
+		<description>
+			<![CDATA[<p>Various homebrew items content posted by r/BrickOyster.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">BO</set>
+			<set name="url">https://github.com/BrickOyster/AuroraFiles/tree/main/custom-content/</set>
+			<set name="author" abbreviation="BO">BrickOyster</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>

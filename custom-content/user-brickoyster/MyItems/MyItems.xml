@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-	<element name="Fine Clothes MA" type="Armor" source="My Additions" id="ID_MA_ME_FINE_CLOTHES_MA">
+    <info>
+        <name>Items created by BrickOyster</name>
+        <update version="0.1">
+            <file name="MyItems.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-BrickOyster/MyItems/MyItems.xml" />
+        </update>
+    </info>
+    
+    <element name="Fine Clothes BO" type="Armor" source="My Additions" id="ID_BO_ME_FINE_CLOTHES_BO">
 		<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 		<requirements>ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS</requirements>
 		<description>
@@ -20,7 +27,7 @@
 		</rules>
 	</element>
 
-	<element name="Amulet of Protection" type="Magic Item" source="My Additions" id="ID_MA_ME_AMULET_OF_PROTECTION">
+	<element name="Amulet of Protection" type="Magic Item" source="My Additions" id="ID_BO_ME_AMULET_OF_PROTECTION">
 		<description>
 			<p>While wearing this amulet, you gain a +1 bonus to AC.</p>
 		</description>
@@ -37,7 +44,7 @@
 		</rules>
 	</element>
 	
-	<element name="Heart of Fakena" type="Magic Item" source="My Additions" id="ID_MA_ME_HEART_OF_FAKENA">
+	<element name="Heart of Fakena" type="Magic Item" source="My Additions" id="ID_BO_ME_HEART_OF_FAKENA">
 		<description>
 			<p>A sickly red glow emanates from the attuned creature's chest, spreading across all creatures within a 300 ft radius. Each creature within range must make a DC 17 Charisma saving throw or become Charmed for 1 minute. If they are immune to charm, they become frightened instead.</p>
             <p class="indent">Any creature Charmed or Frightened gains Short Term Madness at the beginning of each of their turns. This ability may be used a number of times equal to your proficiency modifier before a long rest.</p> 
@@ -56,7 +63,7 @@
 		</setters>
 	</element>
 
-	<element name="Mindbreaker's Swirly Eye" type="Magic Item" source="My Additions" id="ID_MA_ME_MINDBREAKERS_SWIRLY_EYE">
+	<element name="Mindbreaker's Swirly Eye" type="Magic Item" source="My Additions" id="ID_BO_ME_MINDBREAKERS_SWIRLY_EYE">
 		<description>
 			<p>These soft, jelly-like spheres are in constant motion as a red stripe swirls hypnotically across the surface.</p>
 			<p>A creature may attune to a Swirly Eye by pressing it into ther eye socket. The jelly-like sphere will engulf their eye and cover it like a lense.</p>
@@ -77,7 +84,7 @@
 		</setters>
 	</element>
 
-	<element name="Dragon Scale" type="Item" source="My Additions" id="ID_MA_ME_DRAGON_SCALE">
+	<element name="Dragon Scale" type="Item" source="My Additions" id="ID_BO_ME_DRAGON_SCALE">
 		<description>
 			<p>A dragon's scale.</p>
 		</description>
@@ -90,7 +97,7 @@
 		</setters>
 	</element>
 
-	<element name="Tobacco" type="Item" source="My Additions" id="ID_MA_ME_TOBACCO">
+	<element name="Tobacco" type="Item" source="My Additions" id="ID_BO_ME_TOBACCO">
 		<description>
 			<p>Tobaco leaves.</p>
 		</description>
@@ -102,7 +109,7 @@
 		</setters>
 	</element>
 
-	<element name="Smoking Pipe" type="Item" source="My Additions" id="ID_MA_ME_SMOKING_PIPE">
+	<element name="Smoking Pipe" type="Item" source="My Additions" id="ID_BO_ME_SMOKING_PIPE">
 		<description>
 			<p>A smoking pipe</p>
 		</description>
