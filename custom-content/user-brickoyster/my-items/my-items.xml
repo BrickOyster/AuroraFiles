@@ -3,7 +3,7 @@
     <info>
         <name>Items created by BrickOyster</name>
         <update version="0.1">
-            <file name="MyItems.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items/my-items.xml" />
+            <file name="my-items.xml" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items/my-items.xml" />
         </update>
     </info>
     
