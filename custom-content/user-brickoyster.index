@@ -7,6 +7,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="MyItems.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items.index" />
+		<file name="my-items.index" url="https://raw.githubusercontent.com/BrickOyster/AuroraFiles/refs/heads/main/custom-content/user-brickoyster/my-items.index" />
 	</files>
 </index>
